@@ -59,3 +59,17 @@
 .docs-list li:before { content: ""; position: absolute; top: 5px; left: 0; background: url('../img/icons-s402da73931.png') 0 -98px no-repeat; width: 19px; height: 9px; }
 .docs-list li a { font-size: 12px; color: black; text-decoration: underline; }
 .docs-list li a:hover { text-decoration: none; }
+
+.publication-list_parthners li { color: black; }
+
+.parthners-list { *zoom: 1; }
+.parthners-list:after { content: " "; display: table; clear: both; }
+
+.parthners { width: 33%; float: left; eight: 150px; text-align: center; }
+.parthners a { display: inline-block; line-height: 150px; }
+.parthners img { vertical-align: middle; }
+
+div.content { *zoom: 1; }
+div.content:after { content: " "; display: table; clear: both; }
+
+div.container_mod { margin-left: 270px; }
