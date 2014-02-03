@@ -1,0 +1,147 @@
+// inner blocks
+.publication-list, .insurance-list
+	font-size: 10px
+	color: #696969
+	li
+		margin-bottom: 5px
+	a
+		color: #000
+		text-decoration: underline
+		&:hover
+			text-decoration: none
+.insurance-list
+	a
+		font-size: 12px
+.publication
+	padding: 0 10px 			
+.publication__year
+	font: 18px Arial, sans-serif
+	margin-bottom: 18px
+.publication__docs
+	padding-left: 40px
+	li
+		position: relative
+		padding-left: 40px
+		margin-bottom: 35px 
+		&:before
+			content: ""
+			position: absolute
+			top: 0
+			left: 0
+			+s(pdf)
+		a
+			color: #0672b9
+			text-decoration: underline
+			font-style: italic
+			&:hover
+				text-decoration: none	  	
+.pagination
+	ul
+		+clr
+		margin: 0 0 20px 20px 
+		li
+			position: relative
+			float: left
+			padding: 0 3px 0 6px 
+			text-align: center 
+			&:before
+				content: "|"
+				position: absolute
+				top: 1px
+				left: 0
+			&:first-child
+				&:before
+					content: ""	
+			a
+				font-size: 10px
+				color: #000
+				text-decoration: underline
+				&:hover
+					text-decoration: none
+		li.is-active
+			a
+				text-decoration: none
+.breadcrumbs
+	margin-left: 270px 
+	ul
+		font-size: 0
+		li
+			display: inline-block
+			position: relative
+			font-size: 10px
+			padding: 0 5px 0 8px 
+			&:before
+				content: "/"
+				position: absolute
+				top: 1px
+				left: 0
+			&:first-child
+				padding: 0 5px 0 0 
+				&:before
+					display: none
+		a
+			font-size: 10px
+			color: #000
+			text-decoration: underline
+			&.is-active
+				text-decoration: none					
+.ins-type
+	font: 12px Arial, sans-serif
+	color: #000
+	padding: 10px 20px 0
+	border-bottom: 1px solid #b2d4eb 
+	p
+		margin-bottom: 10px 
+.ins-type__title
+	font-size: 24px
+	margin-bottom: 15px 
+.ins-type__sub-title	
+	font-weight: bold
+	font-size: 14px
+	margin-bottom: 15px
+.ins-inquirer 
+	padding-top: 20px
+	.publication__docs
+		padding-left: 0 
+.ins-inquirer__title
+	margin-bottom: 30px
+	font-size: 18px 	 			
+.i-logotype
+	margin-top: 80px 
+	text-align: right
+	font-size: 10px
+	span
+		position: relative
+		top: -20px
+		text-align: left
+		width: 200px
+		strong
+			font-weight: bold	
+	i
+		position: absolute
+		top: -10px
+		left: -38px
+		+s(logo-small)		
+.ins-cover
+	font-size: 14px
+	ul
+		font-size: 12px
+		margin-bottom: 15px
+	b
+		font-weight: bold			
+.docs-list
+	li
+		position: relative
+		padding-left: 27px
+		&:before
+			content: ""
+			position: absolute
+			top: 5px
+			left: 0
+			+s(doc)
+		a
+			font-size: 12px
+			color: #000
+			text-decoration: underline
+			&:hover
+				text-decoration: none	 

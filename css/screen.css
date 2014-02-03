@@ -1,0 +1,61 @@
+/*done by Coderiver.com.ua */
+.publication-list, .insurance-list { font-size: 10px; color: dimgrey; }
+.publication-list li, .insurance-list li { margin-bottom: 5px; }
+.publication-list a, .insurance-list a { color: black; text-decoration: underline; }
+.publication-list a:hover, .insurance-list a:hover { text-decoration: none; }
+
+.insurance-list a { font-size: 12px; }
+
+.publication { padding: 0 10px; }
+
+.publication__year { font: 18px Arial, sans-serif; margin-bottom: 18px; }
+
+.publication__docs { padding-left: 40px; }
+.publication__docs li { position: relative; padding-left: 40px; margin-bottom: 35px; }
+.publication__docs li:before { content: ""; position: absolute; top: 0; left: 0; background: url('../img/icons-s402da73931.png') 0 -47px no-repeat; width: 35px; height: 41px; }
+.publication__docs li a { color: #0672b9; text-decoration: underline; font-style: italic; }
+.publication__docs li a:hover { text-decoration: none; }
+
+.pagination ul { *zoom: 1; margin: 0 0 20px 20px; }
+.pagination ul:after { content: " "; display: table; clear: both; }
+.pagination ul li { position: relative; float: left; padding: 0 3px 0 6px; text-align: center; }
+.pagination ul li:before { content: "|"; position: absolute; top: 1px; left: 0; }
+.pagination ul li:first-child:before { content: ""; }
+.pagination ul li a { font-size: 10px; color: black; text-decoration: underline; }
+.pagination ul li a:hover { text-decoration: none; }
+.pagination ul li.is-active a { text-decoration: none; }
+
+.breadcrumbs { margin-left: 270px; }
+.breadcrumbs ul { font-size: 0; }
+.breadcrumbs ul li { display: inline-block; position: relative; font-size: 10px; padding: 0 5px 0 8px; }
+.breadcrumbs ul li:before { content: "/"; position: absolute; top: 1px; left: 0; }
+.breadcrumbs ul li:first-child { padding: 0 5px 0 0; }
+.breadcrumbs ul li:first-child:before { display: none; }
+.breadcrumbs ul a { font-size: 10px; color: black; text-decoration: underline; }
+.breadcrumbs ul a.is-active { text-decoration: none; }
+
+.ins-type { font: 12px Arial, sans-serif; color: black; padding: 10px 20px 0; border-bottom: 1px solid #b2d4eb; }
+.ins-type p { margin-bottom: 10px; }
+
+.ins-type__title { font-size: 24px; margin-bottom: 15px; }
+
+.ins-type__sub-title { font-weight: bold; font-size: 14px; margin-bottom: 15px; }
+
+.ins-inquirer { padding-top: 20px; }
+.ins-inquirer .publication__docs { padding-left: 0; }
+
+.ins-inquirer__title { margin-bottom: 30px; font-size: 18px; }
+
+.i-logotype { margin-top: 80px; text-align: right; font-size: 10px; }
+.i-logotype span { position: relative; top: -20px; text-align: left; width: 200px; }
+.i-logotype span strong { font-weight: bold; }
+.i-logotype i { position: absolute; top: -10px; left: -38px; background: url('../img/icons-s402da73931.png') 0 0 no-repeat; width: 37px; height: 37px; }
+
+.ins-cover { font-size: 14px; }
+.ins-cover ul { font-size: 12px; margin-bottom: 15px; }
+.ins-cover b { font-weight: bold; }
+
+.docs-list li { position: relative; padding-left: 27px; }
+.docs-list li:before { content: ""; position: absolute; top: 5px; left: 0; background: url('../img/icons-s402da73931.png') 0 -98px no-repeat; width: 19px; height: 9px; }
+.docs-list li a { font-size: 12px; color: black; text-decoration: underline; }
+.docs-list li a:hover { text-decoration: none; }

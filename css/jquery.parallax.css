@@ -1,0 +1,7 @@
+.parallax-viewport {
+   position:relative; overflow:hidden; width:1560px; height:323px;
+   left: -10%;
+}
+.parallax-layer {
+    position: absolute;
+}
