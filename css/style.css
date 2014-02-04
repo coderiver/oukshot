@@ -471,6 +471,9 @@ div.container{
 	background-color: #fff;
 	width: 790px;
 }
+div.container_bg{
+	background-color: transparent;
+}
 h1.main-header{
 	font-size: 24px;
 	margin-left: 270px;
