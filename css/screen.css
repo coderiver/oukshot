@@ -12,7 +12,7 @@
 
 .publication__docs { padding-left: 40px; }
 .publication__docs li { position: relative; padding-left: 40px; margin-bottom: 35px; }
-.publication__docs li:before { content: ""; position: absolute; top: 0; left: 0; background: url('../img/icons-s402da73931.png') 0 -47px no-repeat; width: 35px; height: 41px; }
+.publication__docs li:before { content: ""; position: absolute; top: 0; left: 0; background: url('../img/icons-s80b8fc4086.png') 0 -98px no-repeat; width: 35px; height: 41px; }
 .publication__docs li a { color: #0672b9; text-decoration: underline; font-style: italic; }
 .publication__docs li a:hover { text-decoration: none; }
 
@@ -49,14 +49,14 @@
 .i-logotype { margin-top: 80px; text-align: right; font-size: 10px; }
 .i-logotype span { position: relative; top: -20px; text-align: left; width: 200px; }
 .i-logotype span strong { font-weight: bold; }
-.i-logotype i { position: absolute; top: -10px; left: -38px; background: url('../img/icons-s402da73931.png') 0 0 no-repeat; width: 37px; height: 37px; }
+.i-logotype i { position: absolute; top: -10px; left: -38px; background: url('../img/icons-s80b8fc4086.png') 0 -51px no-repeat; width: 37px; height: 37px; }
 
 .ins-cover { font-size: 14px; }
 .ins-cover ul { font-size: 12px; margin-bottom: 15px; }
 .ins-cover b { font-weight: bold; }
 
 .docs-list li { position: relative; padding-left: 27px; }
-.docs-list li:before { content: ""; position: absolute; top: 5px; left: 0; background: url('../img/icons-s402da73931.png') 0 -98px no-repeat; width: 19px; height: 9px; }
+.docs-list li:before { content: ""; position: absolute; top: 5px; left: 0; background: url('../img/icons-s80b8fc4086.png') 0 -149px no-repeat; width: 19px; height: 9px; }
 .docs-list li a { font-size: 12px; color: black; text-decoration: underline; }
 .docs-list li a:hover { text-decoration: none; }
 
@@ -82,3 +82,18 @@ div.container_mod { margin-left: 270px; }
 
 .photo-gallery { font-size: 0; font-size-margin-left: -3px; }
 .photo-gallery li { display: inline-block; vertical-align: top; width: 33px; height: 33px; margin: 0 0 4px 3px; border-top: 1px solid #97c5e4; border-left: 1px solid #97c5e4; border-right: 1px solid #d3e7f3; border-bottom: 1px solid #d3e7f3; }
+
+.conference-list { font-size: 10px; }
+.conference-list > li { margin-bottom: 5px; }
+.conference-list a { font-style: italic; text-decoration: underline; color: black; }
+.conference-list a:hover { text-decoration: none; }
+
+.seminar { font-size: 12px; padding-bottom: 45px; padding-left: 18px; }
+
+.seminar__title { font-size: 18px; margin-bottom: 10px; }
+
+.seminar__docs { padding: 25px 0 0 60px; margin-bottom: 30px; }
+
+.doc-icon { position: relative; top: 5px; display: inline-block; vertical-align: baseline; background: url('../img/icons-s80b8fc4086.png') 0 0 no-repeat; width: 35px; height: 41px; }
+
+.seminar__item a { display: inline-block; vertical-align: baseline; color: #0672b9; font-style: italic; font-size: 12px; }
