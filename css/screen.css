@@ -47,9 +47,9 @@
 .ins-inquirer__title { margin-bottom: 30px; font-size: 18px; }
 
 .i-logotype { margin-top: 80px; text-align: right; font-size: 10px; }
-.i-logotype span { position: relative; top: -20px; text-align: left; width: 200px; }
+.i-logotype span { position: relative; display: inline-block; top: -20px; text-align: left; width: 230px; line-height: 1.2; }
 .i-logotype span strong { font-weight: bold; }
-.i-logotype i { position: absolute; top: -10px; left: -38px; background: url('../img/icons-s80b8fc4086.png') 0 -51px no-repeat; width: 37px; height: 37px; }
+.i-logotype i { position: absolute; top: -8px; left: -38px; background: url('../img/icons-s80b8fc4086.png') 0 -51px no-repeat; width: 37px; height: 37px; }
 
 .i-logotype_left { margin-top: 50px; text-align: left; padding-left: 30px; }
 .i-logotype_left i { top: -2px; }
@@ -120,3 +120,8 @@ div.container_mod { margin-left: 270px; }
 .news-list__item .new__text span { display: block; font-size: 10px; margin-bottom: 5px; }
 
 .new-list__title { font-weight: bold; font-size: 14px; }
+
+.news__sub-title { font-weight: bold; font-size: 14px; margin-bottom: 5px; }
+
+.main-new_single .main-new__title { font-size: 24px; }
+.main-new_single .main-new__title:hover { text-decoration: none; }
