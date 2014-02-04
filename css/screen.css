@@ -129,6 +129,7 @@ div.container_mod { margin-left: 270px; }
 .books-list li { margin-bottom: 15px; font-size: 10px; color: black; }
 .books-list li a { color: black; font-weight: bold; text-decoration: underline; }
 .books-list li a:hover { text-decoration: none; }
+.books-list li b { font-weight: bold; }
 
 .books { font-size: 0; padding-top: 25px; }
 .books .book { display: inline-block; vertical-align: top; width: 334px; margin-bottom: 40px; margin-left: 30px; *zoom: 1; font-size: 12px; }
@@ -142,3 +143,16 @@ div.container_mod { margin-left: 270px; }
 .book__title:hover { text-decoration: underline; }
 
 .book_non-image .book__content { float: none; width: 100%; }
+
+.single-book { *zoom: 1; padding-top: 20px; padding-bottom: 30px; font-size: 12px; }
+.single-book:after { content: " "; display: table; clear: both; }
+
+.single-book__img { float: left; width: 142px; text-align: center; }
+
+.single-book__content { float: right; width: 648px; }
+
+.single-book__title { font-size: 14px; font-weight: bold; margin-bottom: 15px; }
+
+.single-book__info { margin-bottom: 15px; }
+
+.single-book__text p { margin-bottom: 10px; }
