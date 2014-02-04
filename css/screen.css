@@ -51,6 +51,9 @@
 .i-logotype span strong { font-weight: bold; }
 .i-logotype i { position: absolute; top: -10px; left: -38px; background: url('../img/icons-s80b8fc4086.png') 0 -51px no-repeat; width: 37px; height: 37px; }
 
+.i-logotype_left { margin-top: 50px; text-align: left; padding-left: 30px; }
+.i-logotype_left i { top: -2px; }
+
 .ins-cover { font-size: 14px; }
 .ins-cover ul { font-size: 12px; margin-bottom: 15px; }
 .ins-cover b { font-weight: bold; }
@@ -97,3 +100,23 @@ div.container_mod { margin-left: 270px; }
 .doc-icon { position: relative; top: 5px; display: inline-block; vertical-align: baseline; background: url('../img/icons-s80b8fc4086.png') 0 0 no-repeat; width: 35px; height: 41px; }
 
 .seminar__item a { display: inline-block; vertical-align: baseline; color: #0672b9; font-style: italic; font-size: 12px; }
+
+.main-new { margin-bottom: 16px; padding: 15px 20px 0; background: rgba(255, 255, 255, 0.7); border-bottom: 1px solid #b2d4eb; border-top: 1px solid #b2d4eb; }
+
+.main-new__title { display: inline-block; margin-bottom: 20px; font-size: 18px; color: black; text-decoration: none; }
+.main-new__title:hover { text-decoration: underline; }
+
+.new__text { font-size: 12px; margin-bottom: 30px; }
+.new__text img { float: left; border: 1px solid #0072bc; margin-right: 12px; margin-top: 6px; }
+
+.news-list__link { font-size: 10px; color: black; text-decoration: none; text-transform: uppercase; }
+.news-list__link:hover { text-decoration: underline; }
+
+.news-list__content { margin-top: 5px; margin-left: -25px; }
+
+.news-list__item { display: inline-block; vertical-align: top; width: 380px; margin-left: 25px; }
+.news-list__item a { display: block; margin-top: 2px; height: 180px; padding: 10px 20px; overflow: hidden; background: rgba(255, 255, 255, 0.7); text-decoration: none; color: black; }
+.news-list__item a:hover { background: rgba(6, 114, 185, 0.8); color: white; }
+.news-list__item .new__text span { display: block; font-size: 10px; margin-bottom: 5px; }
+
+.new-list__title { font-weight: bold; font-size: 14px; }

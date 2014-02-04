@@ -405,7 +405,7 @@ div.content div.rightblock div.publications a{
 ul.sidebarLeft_menu{
 	padding: 11px 5px;
 	border-radius: 10px;
-	background-color: #0672b9;
+	background-color: rgba(6,114,185, .8);
 	color: #fff !important; 
 }
 ul.sidebarLeft_menu li{
@@ -468,7 +468,7 @@ div.container{
 	float: left;
 	margin-left: 40px;
 	margin-top: 10px;
-	background-color: #fff;
+	background-color: rgba(255,255,255, 0.7);
 	width: 790px;
 }
 div.container_bg{
