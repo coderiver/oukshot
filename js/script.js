@@ -15,7 +15,7 @@ $(document).ready(function() {
     {xparallax: '110px'},
     {xparallax: '200px'},
     {xparallax: '160px'},
-    {xparallax: '50px'}
+    {xparallax: '0px'}
     );
 
 });
