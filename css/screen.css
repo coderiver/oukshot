@@ -160,3 +160,5 @@ div.container_mod { margin-left: 270px; }
 .parallax-wrap { position: relative; overflow: hidden; height: 250px; }
 
 .parallax-viewport { position: absolute; left: 50%; margin-left: -780px; }
+
+.parallax-viewport_index { margin: 0 auto; left: 0 !important; }
