@@ -209,6 +209,9 @@ ul.nav li a{
 	text-decoration: underline;
 	text-transform: uppercase;
 }
+ul.nav li a:hover{
+	text-decoration: none;
+}
 ul.nav_sub{
 	text-align: center;
 	border-bottom: 1px solid #0072bb;
@@ -253,6 +256,14 @@ div.content div.rightblock #conference h2 a{
 	margin-bottom: 10px;
 	display: inline-block;
 	color: #000;
+}
+div.content div.leftblock #news_1 h2 a:hover,
+div.content div.leftblock #books h2 a:hover,
+div.content div.centerblock #foto h2 a:hover,
+div.content div.centerblock #news_2 h2 a:hover,
+div.content div.rightblock #publication h2 a:hover,
+div.content div.rightblock #conference h2 a:hover{
+	text-decoration: none;
 }
 div.content div.leftblock #news_1 div.news,
 div.content div.leftblock #books div.books_content,
@@ -355,6 +366,9 @@ div.content div.rightblock div.publications a{
 	float: right;
 	width: 285px;
 	color: #000;
+}
+div.content div.rightblock div.publications a:hover{
+	text-decoration: none;
 }
 /* header on other pages*/
 .sidebarLeft{
