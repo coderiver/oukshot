@@ -156,3 +156,5 @@ div.container_mod { margin-left: 270px; }
 .single-book__info { margin-bottom: 15px; }
 
 .single-book__text p { margin-bottom: 10px; }
+
+.header__wrap { width: 1560px; margin: 0 auto; }
