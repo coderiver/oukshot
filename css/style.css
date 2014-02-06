@@ -501,6 +501,9 @@ h1.main-header{
 	display: block;
 	font-size: 11px;
 }
+.sidebarRight .main a:hover{
+	text-decoration: none;
+}
 hr.line-header{
 	background-color: #b1d4ea;
 	border: none;
