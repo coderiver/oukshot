@@ -1,6 +1,6 @@
 // responsive example, edit or remove
 $breaksmall: 500px
-
+$parallax: 1560px
 $breaklarge: 1180px
 
 =r($media)
@@ -8,6 +8,10 @@ $breaklarge: 1180px
 		// narrower than $width
 		@media only screen and (max-width: $breaksmall)
 			@content
+	@if $media == parallax
+		// narrower than $width
+		@media only screen and (max-width: $parallax)
+			@content		
 	@else if $media == wide
 		// wider than $width
 		@media only screen and (min-width: $breaklarge)

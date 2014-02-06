@@ -157,4 +157,6 @@ div.container_mod { margin-left: 270px; }
 
 .single-book__text p { margin-bottom: 10px; }
 
-.header__wrap { width: 1560px; margin: 0 auto; }
+.parallax-wrap { position: relative; overflow: hidden; height: 250px; }
+
+.parallax-viewport { position: absolute; left: 50%; margin-left: -780px; }
