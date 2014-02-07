@@ -10,12 +10,12 @@ $(document).ready(function() {
     // 	}
     // });
     $('.parallax-layer').parallax(
-    {mouseport: $(".header"), yparallax: false},
-    {xparallax: '0'},
-    {xparallax: '110px'},
-    {xparallax: '200px'},
-    {xparallax: '160px'},
-    {xparallax: '0px'}
+        {mouseport: $("body"), yparallax: false},
+        {xparallax: '0'},
+        {xparallax: '110px'},
+        {xparallax: '200px'},
+        {xparallax: '160px'},
+        {xparallax: '0px'}
     );
 
 });

@@ -277,6 +277,20 @@ div.content div.news.active{
 	background-color: #0072bb;
 	color: #fff;
 }
+div.content div.news.active:hover h3{
+	color: #fff;
+}
+div.content div.news.active h3{
+	text-decoration: none!important;
+}
+div.content div.news:hover h3{
+	color: #024875;
+}
+div.content div.books_content:hover h3,
+div.content div.foto_content:hover h3,
+div.content div.conference_content:hover h3{
+	color: #024875;
+}
 div.content div.leftblock #news_1 div.news h3,
 div.content div.leftblock #books div.books_content h3,
 div.content div.centerblock #news_2 div.news h3,
@@ -284,6 +298,14 @@ div.content div.centerblock #foto div.foto_content h3,
 div.content div.rightblock #conference div.conference_content h3{
 	font-weight: bold;
 	margin-bottom: 10px;
+	text-decoration: underline;
+}
+div.content div.leftblock #news_1 div.news:hover h3,
+div.content div.leftblock #books div.books_content:hover h3,
+div.content div.centerblock #news_2 div.news:hover h3,
+div.content div.centerblock #foto div.foto_content:hover h3,
+div.content div.rightblock #conference div.conference_content:hover h3{
+	text-decoration: none;
 }
 
 div.content div.leftblock #books div.books_content h3{
@@ -369,6 +391,7 @@ div.content div.rightblock div.publications a{
 }
 div.content div.rightblock div.publications a:hover{
 	text-decoration: none;
+	color: #024875
 }
 /* header on other pages*/
 .sidebarLeft{
