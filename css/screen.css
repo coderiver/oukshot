@@ -132,12 +132,12 @@ div.container_mod { margin-left: 270px; }
 .books-list li b { font-weight: bold; }
 
 .books { font-size: 0; padding-top: 25px; }
-.books .book { display: inline-block; vertical-align: top; width: 334px; margin-bottom: 40px; margin-left: 30px; *zoom: 1; font-size: 12px; }
+.books .book { display: inline-block; vertical-align: top; width: 334px; margin-bottom: 40px; margin-left: 30px; width: 45%; margin-left: 5%; *zoom: 1; font-size: 12px; }
 .books .book:after { content: " "; display: table; clear: both; }
 
 .book__img { float: left; width: 124px; }
 
-.book__content { float: right; width: 210px; }
+.book__content { overflow: hidden; }
 
 .book__title { display: block; font-size: 14px; font-weight: bold; margin-bottom: 15px; color: black; text-decoration: none; }
 .book__title:hover { text-decoration: underline; }
@@ -149,7 +149,7 @@ div.container_mod { margin-left: 270px; }
 
 .single-book__img { float: left; width: 142px; text-align: center; }
 
-.single-book__content { float: right; width: 648px; }
+.single-book__content { overflow: hidden; }
 
 .single-book__title { font-size: 14px; font-weight: bold; margin-bottom: 15px; }
 
