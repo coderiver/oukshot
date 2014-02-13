@@ -114,7 +114,7 @@ div.container_mod { margin-left: 270px; }
 
 .news-list__content { margin-top: 5px; margin-left: -25px; }
 
-.news-list__item { display: inline-block; vertical-align: top; width: 380px; margin-left: 25px; }
+.news-list__item { display: inline-block; vertical-align: top; width: 380px; margin-left: 25px; width: 46%; margin-right: 0%; margin-left: 3%; }
 .news-list__item a { display: block; margin-top: 2px; height: 180px; padding: 10px 20px; overflow: hidden; background: rgba(255, 255, 255, 0.7); text-decoration: none; color: black; }
 .news-list__item a:hover { background: rgba(6, 114, 185, 0.8); color: white; }
 .news-list__item .new__text span { display: block; font-size: 10px; margin-bottom: 5px; }
