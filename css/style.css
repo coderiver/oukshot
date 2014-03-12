@@ -370,6 +370,15 @@ div.content div.centerblock #news_2 div.news img{
 	float: left;
 	margin: 0 10px 0 0;
 }
+.news .img{
+	float: left;
+	width: 75px;
+	height: 75px;
+	background-size: cover;
+	overflow: hidden;
+	margin: 0 10px 0 0;
+	background-position: 50% 50%;
+}
 div.content div.centerblock #foto div.foto_content img{
 	width: 36px;
 	height: 36px;
