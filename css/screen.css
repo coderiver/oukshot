@@ -84,7 +84,9 @@ div.container_mod { margin-left: 270px; }
 .photoalbum__title { margin-bottom: 15px; font-size: 14px; font-weight: bold; color: black; }
 
 .photo-gallery { font-size: 0; font-size-margin-left: -3px; }
-.photo-gallery li { display: inline-block; vertical-align: top; width: 33px; height: 33px; margin: 0 0 4px 3px; border-top: 1px solid #97c5e4; border-left: 1px solid #97c5e4; border-right: 1px solid #d3e7f3; border-bottom: 1px solid #d3e7f3; }
+.photo-gallery li { display: inline-block; vertical-align: top; width: 33px; height: 33px; margin: 0 0 4px 3px; border-top: 1px solid #97c5e4; border-left: 1px solid #97c5e4; border-right: 1px solid #d3e7f3; border-bottom: 1px solid #d3e7f3; overflow: hidden; white-space: nowrap; }
+.photo-gallery li img { display: inline-block; width: 100%; vertical-align: middle; }
+.photo-gallery li i { display: inline-block; height: 100%; vertical-align: middle; width: 1px; }
 
 .conference-list { font-size: 10px; }
 .conference-list > li { margin-bottom: 5px; }
